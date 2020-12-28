@@ -7,7 +7,8 @@ var speed;
 var weight;
 
 function setup() {
-  createCanvas(windowWidth,400);
+  createCanvas(800,400);
+  console.log("canvas width 800");
  
 //random values for speed and weight
 speed=random(55,90);
@@ -19,6 +20,8 @@ wall=createSprite(1500,200,60,height/2);
 
 //moving the car
 car.velocityX=speed;
+  
+ 
 
 }
 
